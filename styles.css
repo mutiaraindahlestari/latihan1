@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #eaeaea; /* Light gray background */
+}
+
+h1 {
+    color: #2c3e50; /* Darker shade for headings */
+    font-size: 2.5em; /* Larger heading */
+}
+
+p {
+    color: #34495e; /* Soft dark color for text */
+    line-height: 1.6; /* Improved readability */
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #ffffff; /* White background for list items */
+    border: 1px solid #ddd; /* Light border */
+    margin: 10px 0; /* Spacing between items */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db; /* Blue header */
+    color: white; /* White text for header */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Light gray on hover */
+}
+form {
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="email"] {
+    width: calc(100% - 22px); /* Full width minus padding */
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light border */
+}
+
+input[type="submit"] {
+    background-color: #27ae60; /* Green submit button */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #219653; /* Darker green on hover */
+}
+a {
+    color: #2980b9; /* Default link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #3498db; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+ul li:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+    transition: transform 0.2s ease-in-out; /* Smooth transition effect */
+}
